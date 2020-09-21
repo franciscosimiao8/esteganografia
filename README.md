@@ -1,12 +1,16 @@
 # Esteganografia Python
 Esconder mensagens em imagens locais ou Web
 
-```bash
-$python3 main.py <img:link> <type> <message>
-```
+
 
 ```bash
-$git clone
+$git clone https://github.com/franciscosimiao8/esteganografia.git
+$pip3 install -r requirements.txt
+```
+
+
+```bash
+$python3 main.py <img:link> <type> <message>
 ```
   
   img:link -> img or link of img
