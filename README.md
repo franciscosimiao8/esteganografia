@@ -8,3 +8,4 @@ $ python3 main.py <img:link> <type> <message>
   type -> hidde or show
 
 ![Test Image 1](akatsuki.png)
+![Test Image 1](akatsuki.png)
