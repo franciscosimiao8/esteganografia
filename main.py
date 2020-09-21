@@ -8,13 +8,14 @@ if len(sys.argv) < 3:
     exit()
 
 else:
-    image = "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png" #sys.argv[2]
+    image = sys.argv[2]
     nome_img = image.split("/")[-1]
     print(nome_img)
     tipo = sys.argv[2]
-    mess = sys.argv[3]
+
 
     if tipo == "hidde":
+        mess = sys.argv[3]
         if "http" in image:
             os.system(f"wget {image} -O imgs/{nome_img}")
             hidde_msg(f"{nome_img}", {mess})
@@ -25,6 +26,3 @@ else:
 
     elif tipo == "show":
         print(show_msg(f"{nome_img}"))
-
-
-
