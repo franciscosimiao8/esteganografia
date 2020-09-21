@@ -2,8 +2,11 @@
 Esconder mensagens em imagens locais ou Web
 
 ```bash
-   $python3 main.py <img:link> <type> <message>
-puts markdown.to_html
+$python3 main.py <img:link> <type> <message>
+```
+
+```bash
+$git clone
 ```
   
   img:link -> img or link of img
